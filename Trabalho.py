@@ -17,7 +17,7 @@ def cadastrar():
     produtos[nome] = preco
     print("Produto cadastrado!")
 
-
+#Server para listar os produtos cadastrados
 def listar():
     if not produtos:
         print("Nenhum produto cadastrado ainda.")
